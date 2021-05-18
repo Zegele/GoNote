@@ -3,7 +3,7 @@ git remote add origin git@github.com:Zegele/GoNote.git
 //复制改代码到git中执行，表示将github仓库与本机仓库连接。
 git push -u origin master
 //将文档从本地，推到github仓库。
-
+//第一次需要这样写完整，后面的可以直接写git push，即可将代码推到github
 
 
 git remote add origin git@github.com:Zegele/GoNote.git
