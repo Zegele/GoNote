@@ -1,7 +1,8 @@
 //在github中创建好库后，会显示入如下代码：
 git remote add origin git@github.com:Zegele/GoNote.git
+//复制改代码到git中执行，表示将github仓库与本机仓库连接。
 git push -u origin master
-
+//将文档从本地，推到github仓库。
 
 
 

@@ -306,6 +306,18 @@ gopm get -g -v -u golang.org/x/tools/cmd/goimports
 ![下载goimports](https://upload-images.jianshu.io/upload_images/4370290-6b3bbdf8a1bbd95e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 （当然一切的目标是下载到goimports包，如果你有办法下到包即可。可以参考链接：gopm.io，下载你需要的包，当然也有golang.org/x/tools包）
 
+/*给新机安装时发现gomp下载不了。。。
+用以下方法反而快速拥有goimports
+1.创建文件夹  
+mkdir $GOPATH/src/golang.org/x/ 
+2. 进入文件夹 cd $GOPATH/src/golang.org/x/ 
+3. 下载源码 git clone https://github.com/golang/tools.git 
+4. 安装 go install golang.org/x/tools/cmd/goimports
+安装完成后，在GOPATH/bin中你会看到goimports的可运行文件。
+
+参考文章：https://blog.csdn.net/weixin_30709061/article/details/98612978
+*/
+
 3. 安装goimports
 
 ```swift
